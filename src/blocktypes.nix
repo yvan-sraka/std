@@ -9,4 +9,5 @@
   microvms = import ./blocktypes/microvms.nix {inherit nixpkgs;};
   nixago = import ./blocktypes/nixago.nix {inherit nixpkgs;};
   nomadJobManifests = import ./blocktypes/nomadJobManifests.nix {inherit nixpkgs;};
+  tasks = import ./blocktypes/tasks.nix {inherit nixpkgs;};
 }
